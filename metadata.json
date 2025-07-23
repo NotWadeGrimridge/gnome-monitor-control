@@ -1,0 +1,9 @@
+{
+  "name": "Monitor Control",
+  "description": "Control external monitor brightness and volume via ddcutil",
+  "uuid": "gnome-ddcutil@wadegrimridge",
+  "settings-schema": "org.gnome.shell.extensions.gnome-ddcutil",
+  "url": "https://github.com/NotWadeGrimridge/gnome-monitor-control",
+  "version": 1,
+  "shell-version": ["48"]
+}

@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "dev": "./scripts/build.sh --unsafe-reload",
+    "install": "./scripts/build.sh --install",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier -w ."
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsdoc": "^51.4.1",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}

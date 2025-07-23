@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.gnome-ddcutil" path="/org/gnome/shell/extensions/gnome-ddcutil/">
+        <key type="as" name="increase-brightness-shortcut">
+            <default><![CDATA[['<Control>XF86MonBrightnessUp']]]></default>
+            <summary>Increase Brightness Shortcut</summary>
+        </key>
+        <key type="as" name="decrease-brightness-shortcut">
+            <default><![CDATA[['<Control>XF86MonBrightnessDown']]]></default>
+            <summary>Decrease Brightness Shortcut</summary>
+        </key>
+        <key type="d" name="step-change-keyboard">
+            <range min="1" max="100" />
+            <default>5</default>
+            <summary>Step change % when using keyboard shortcut</summary>
+        </key>
+        <key type="b" name="show-osd">
+            <default>true</default>
+            <summary>Show on-screen display when brightness changes</summary>
+        </key>
+        <key type="b" name="enable-contrast">
+            <default>true</default>
+            <summary>Enable contrast control feature</summary>
+        </key>
+        <key type="b" name="enable-audio-sync">
+            <default>false</default>
+            <summary>Enable audio volume synchronization</summary>
+        </key>
+    </schema>
+</schemalist>
